@@ -1,5 +1,123 @@
 # Specification of JiaoziFS.
 
+## Dataset linage management
+
+
+![](./img/data-lineage.png)
+Data lineage management for machine learning data flows recording and machine unlearning updating. For each step in the machine learning system, from the original dataset to optimizing each parameter in the training process to getting the final training results and analyzing the results, all data and changes will be recorded in the data lineage management system. This series of records of data flow characteristics and changes allow developers to control and track any subtle differences in the model learning process at any time
+
+Version Control for ML Models: Why You Need It, What It Is, How To Implement It
+https://neptune.ai/blog/version-control-for-ml-models
+
+Machine Learning Pipelines: Provenance, Reproducibility and FAIR Data Principles
+https://arxiv.org/pdf/2006.12117.pdf
+
+Teaching Software Engineering for AI-Enabled Systems
+https://arxiv.org/pdf/2001.06691.pdf
+
+Dataset Management Platform for Machine Learning
+https://arxiv.org/pdf/2303.08301.pdf
+
+Managing Dataset Versions in Long-Term ML Projects
+https://neptune.ai/blog/managing-dataset-versions-in-long-term-ml-projects
+
+CS839 - Data Management for Machine Learning Applications (Spring 2018)
+https://thodrek.github.io/CS839_spring18/
+
+Data Management for Machine Learning: A Survey
+https://luoyuyu.vip/files/DM4ML_Survey.pdf
+
+Machine Learning for Data Management: A System View
+https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/ai4db-slides.pdf
+
+Machine Learning for Data Management: A System View
+https://dbgroup.cs.tsinghua.edu.cn/ligl/papers/icde22-tutorial-paper.pdf
+
+DM4ML_Survey.pdf - Google Drive
+https://drive.google.com/file/d/1Ye9PUFrjhjFYX-qDb5D3Q5LlKQtxtsF3/view
+
+Microsoft PowerPoint - 1_Introduction.pptx
+https://pdfs.semanticscholar.org/fd53/5070a5aa6b6d18bf57a4b84fbc1e8e0937ca.pdf
+
+The Data Engineering Lifecycle. A primer into the 5 key components of… | by Dom N | Medium
+https://medium.com/@dom.n/the-data-engineering-lifecycle-5c67bf6fb540
+
+Data lineage: Data origination and where it moves over time | Deloitte Netherlands
+https://www2.deloitte.com/nl/nl/pages/financial-services/articles/data-lineage.html
+
+Understanding the Importance of Data Lineage in Modern Data Management - Simple Talk
+https://www.red-gate.com/simple-talk/development/other-development/understanding-the-importance-of-data-lineage-in-modern-data-management/
+
+Data Lineage : Examples, Concepts and Techniques | decube
+https://www.decube.io/post/data-lineage-examples-concepts-and-techniques
+
+Data Lineage and Data Quality: How They Intersect - DATAVERSITY
+https://www.dataversity.net/data-lineage-and-data-quality-how-they-intersect/
+
+Webinar: How Automating Data Lineage Improves BI Performance - DATAVERSITY
+https://www.dataversity.net/webinar-how-automating-data-lineage-improves-bi-performance/
+
+Data Governance Tools Support Data Management - DATAVERSITY
+https://www.dataversity.net/data-governance-tools-support-data-management/
+
+Machine Learning Pipeline: Architecture of ML Platform
+https://www.altexsoft.com/blog/machine-learning-pipeline/
+
+
+# Machine Unlearning
+
+A Survey of Machine Unlearning
+https://arxiv.org/pdf/2209.02299.pdf
+
+Machine Unlearning: A Survey
+https://arxiv.org/pdf/2306.03558.pdf
+
+## Model Registry
+
+MLflow Model Registry — MLflow 2.11.3 documentation
+https://mlflow.org/docs/latest/model-registry.html
+
+## Edge ML
+
+Edge ML Solutions for Real-Time Insights | Expanso
+https://expanso.io/use-cases/edge-machine-learning/
+
+Intel® Liftoff Member Expanso Takes ML/AI to the Edge with Intel® Hardware - Intel Community
+https://community.intel.com/t5/Blogs/Tech-Innovation/Artificial-Intelligence-AI/Intel-Liftoff-Member-Expanso-Takes-ML-AI-to-the-Edge-with-Intel/post/1575901
+
+
+## Machine Learning in Production / AI Engineering
+
+Home · cmuvariability/PaperReadingGroup Wiki
+https://github.com/cmuvariability/PaperReadingGroup/wiki
+
+Christian Kästner :: CMU
+https://www.cs.cmu.edu/~ckaestne/
+
+Machine Learning in Production / AI Engineering
+https://ckaestne.github.io/seai/
+
+Christian Kästner – Medium
+https://ckaestne.medium.com/
+
+Versioning, Provenance, and Reproducibility in Production Machine Learning | by Christian Kästner | Medium
+https://ckaestne.medium.com/versioning-provenance-and-reproducibility-in-production-machine-learning-355c48665005
+
+Machine Learning in Production: From Models to Products | by Christian Kästner | Medium
+https://ckaestne.medium.com/machine-learning-in-production-book-overview-63be62393581
+
+Dataset Management Platform for Machine Learning
+https://arxiv.org/pdf/2303.08301.pdf
+
+Dataset + File Management — Dataverse.org
+https://guides.dataverse.org/en/5.11.1/user/dataset-management.html
+
+## LLM
+
+Mauve 👁💜: "Video of my talk about making an #OpenSource #LLM…" - Mauvestodon
+https://mastodon.mauve.moe/@mauve/112134166517219130
+https://youtu.be/GztPt4Yhl8M
+
 ## Data-Centric AI
 Data-centric AI Resource Hub
 https://datacentricai.org/
@@ -234,6 +352,12 @@ https://codex.desci.com/data-layer-definition/entities/research-object
 
 ## Pipeline
 
+What Is A Data Pipeline For Machine Learning? | Pachyderm
+https://www.pachyderm.com/blog/what-is-a-data-pipeline-for-machine-learning/
+
+Data Pipeline and Data Lifecycle management. | by Kiran Mainali | Big Data Processing | Medium
+https://medium.com/big-data-processing/data-pipeline-and-data-lifecycle-management-68cd0d60871b
+
 FAIR data pipeline: provenance-driven data management for traceable scientific workflows
 https://www.scienceopen.com/document_file/e8e0a2e9-c6d3-498a-867a-37322878e613/PubMedCentral/e8e0a2e9-c6d3-498a-867a-37322878e613.pdf
 
@@ -378,3 +502,46 @@ https://github.com/MLSysOps/Active-Learning-as-a-Service
 
 About versioning ontologies or any digital objects with clear semantics
 https://hal.science/hal-04094847/document
+
+
+Unmasking and Improving Data Credibility: A Study with Datasets for Training Harmless Language Models
+https://arxiv.org/pdf/2311.11202.pdf
+
+Docta-ai/docta: A Doctor for your data
+https://github.com/Docta-ai/docta
+
+## Data Products
+
+An Operating Model for Data Products | by Eric Broda | Towards Data Science
+https://towardsdatascience.com/an-operating-model-for-data-products-fba6b268f698
+
+How to Build Data Products? Deploy: Part 3/4
+https://moderndata101.substack.com/p/how-to-build-data-products-deploy
+
+Machine Learning Models for Data Product Development
+https://www.scribbledata.io/blog/machine-learning-models-for-data-product-development-a-complete-guide/
+
+What Exactly is a Data Product?. This blog has taken much longer to… | by Sanjeev Mohan | Data Mesh Learning | Medium
+https://medium.com/data-mesh-learning/what-exactly-is-a-data-product-7f6935a17912
+
+Data as a product vs data products. What are the differences? | by Xavier Gumara Rigol | Towards Data Science
+https://towardsdatascience.com/data-as-a-product-vs-data-products-what-are-the-differences-b43ddbb0f123
+
+Data Mesh — AI/ML Model Output Data Products | by Johan Louwers | Medium
+https://louwersj.medium.com/data-mesh-ai-ml-model-output-data-products-2de7612cfae3
+
+Use AI & ML to Build Great Data Products
+https://www.acceldata.io/article/how-data-observability-ensures-successful-ai-ml-data-products
+
+Semantic Versioning for Data Products | by Miklós Koren | Data Architect | Medium
+https://medium.com/data-architect/semantic-versioning-for-data-products-2b060962093
+
+Versioning, Cataloging, and Decommissioning Data Products
+https://moderndata101.substack.com/p/managing-the-evolving-data-products-landscape-p2
+
+(1) Data Products: Tutorial & Best Practices | LinkedIn
+https://www.linkedin.com/pulse/data-products-tutorial-best-practices-nexla/
+
+  
+
+
