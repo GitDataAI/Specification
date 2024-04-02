@@ -2774,4 +2774,40 @@ https://www.madrona.com/the-generative-ai-tech-stack-market-map/
 
 
 
+# Open Table Formats
 
+Optimizing update operations to Apache Iceberg tables using DataFlint | by Meni Shmueli | Mar, 2024 | Dev Genius
+https://blog.devgenius.io/optimizing-update-operations-to-apache-iceberg-tables-using-dataflint-e4e372e75b8a
+
+Presto / Trino | lakeFS Documentation
+https://docs.lakefs.io/integrations/presto_trino.html
+
+Open Table Formats vs. Data Version Control Systems
+https://lakefs.io/blog/open-table-formats-vs-data-version-control-systems/?utm_campaign=Social%20media%20activity&utm_source=linkedin&utm_medium=social&utm_content=blog_otf-vs-data-version-control_230427
+
+Open Table Formats - Hudi/Iceberg/Delta lake - YouTube
+https://www.youtube.com/playlist?app=desktop&list=PLM15UEjiveml7UnWEqqrLqbWKXSaClR2Z
+
+What is an Open Table Format? & Why to use one? · Start Data Engineering
+https://www.startdataengineering.com/post/what_why_table_format/
+
+Open Table Formats for Efficient Data Processing: Delta Lake vs Iceberg vs Hudi | by Anjan Banerjee | HCLTech-Starschema Blog | Medium
+https://medium.com/starschema-blog/open-table-formats-for-efficient-data-processing-delta-lake-vs-iceberg-vs-hudi-b1107141e9a6
+
+Open Table Formats vs. Data Version Control Systems
+https://lakefs.io/blog/open-table-formats-vs-data-version-control-systems/
+
+5 Reasons to Use Apache Iceberg on Cloudera Data Platform (CDP) - Cloudera Blog
+https://blog.cloudera.com/5-reasons-to-use-apache-iceberg-on-cloudera-data-platform-cdp/
+
+What is an Open Table Format? & Why to use one? · Start Data Engineering
+https://www.startdataengineering.com/post/what_why_table_format/
+
+Enabling Walmart's Data Lakehouse With Apache Hudi
+https://www.onehouse.ai/blog/enabling-walmarts-data-lakehouse-with-apache-hudi
+
+Open Table Formats — Delta, Iceberg & Hudi | by Amit Singh Rathore | Geek Culture | Medium
+https://medium.com/geekculture/open-table-formats-delta-iceberg-hudi-732f682ec0bb
+
+Open table formats for data lakes | Iceberg, Delta Lake, Hudi
+https://www.starburst.io/learn/data-fundamentals/open-table-formats/
