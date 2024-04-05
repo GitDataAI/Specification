@@ -2811,3 +2811,31 @@ https://medium.com/geekculture/open-table-formats-delta-iceberg-hudi-732f682ec0b
 
 Open table formats for data lakes | Iceberg, Delta Lake, Hudi
 https://www.starburst.io/learn/data-fundamentals/open-table-formats/
+
+
+复旦Moss团队：发现大语言模型的Data Mixing定律！
+https://mp.weixin.qq.com/s/7zoZL53hDdLlf0bzZ7-7Hg
+
+1. 简介
+   作者来自复旦大学和上海AI Lab，论文研究了数据混合比例对大语言模型(LLMs)预训练性能的影响，并发现了模型性能与data mixture比例之间在函数形式上的定量可预测性，称为数据混合定律(Data Mixing Laws)！
+
+2. 背景
+   大型语言模型（LLMs）的预训练涉及使用大量数据和计算资源来训练模型。预训练数据通常来自多个领域，如网页文本、学术论文和代码等，这些数据的混合比例对模型的最终性能有显著影响。然而，确定最佳的数据混合比例一直是一个挑战，因为现有的方法主要依赖于启发式或定性策略，缺乏精确的量化标准。
+
+3. 方法
+   论文提出了“数据混合定律”（Data Mixing Laws），这是一种量化模型性能与数据混合比例之间关系的函数。作者通过在样本混合上拟合特定的函数形式，能够预测在不同混合比例下模型的验证损失。这些函数形式可以是线性的或非线性的，例如指数函数，它们通过训练数据的不同领域的比例来预测模型性能。此外，作者提出了一种嵌套使用训练step、模型大小和数据混合定律的缩放定律的方法，从而可以在小规模训练的基础上预测大规模模型的性能。这种方法允许研究人员在不进行昂贵的大规模实验的情况下，预测和优化数据混合比例。
+
+4. 效果
+   1） 该方法能够有效地优化RedPajama数据集上1B模型的训练混合比例，使其在100B个token的训练中达到与默认混合比例训练多训48%step的性能。
+   2）此外，将数据混合定律应用于持续预训练，可以准确找到避免灾难性遗忘的关键混合比例，这表明了数据混合定律在设计动态数据计划方面的潜力。
+
+论文题目：Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance
+论文链接：https://arxiv.org/abs/2403.16952
+GitHub：https://github.com/yegcjs/mixinglaws (coming soon)
+
+
+Banyan的文件系统
+(1) Banyan on X: "Hey Banyan frens, We have some exciting news to share: Our new filesystem, BanyanFS, is now ready for public access! This marks a new chapter for Banyan as we continue to build solutions that give users better privacy, access, &amp; control over their data. 1/ https://t.co/3NbEM2ZRH6" / X
+https://twitter.com/BanyanComputer/status/1775533135054147679
+
+
